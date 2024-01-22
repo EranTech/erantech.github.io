@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  animation: fade-in 2s forwards;
+}
+
+html {
+  cursor: url(erantech.cur), auto;
+}
+
+img{
+  width: 250px
+}
+
+#txt {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
